@@ -1,0 +1,6 @@
+
+.picture-size{
+	width: 40vmax;
+	height: 30vmax;
+}
+

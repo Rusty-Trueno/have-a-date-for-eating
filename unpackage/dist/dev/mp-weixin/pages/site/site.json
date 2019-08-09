@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "约饭吧",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

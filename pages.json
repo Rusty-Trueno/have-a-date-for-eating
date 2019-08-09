@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "约饭吧"
+			}
+		},
+		{
+			"path": "pages/dating/dating",
+			"style": {
+				"navigationBarTitleText": "当前约饭信息"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录/注册"
+			}
+		},
+		{
+			"path":"pages/site/site",
+			"style":{
+				"navigationBarTitleText":"约饭吧"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F0AD4E",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#007AFF",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/index-unselect.png",
+			"selectedIconPath":"static/index-select.png",
+			"text":"首页"
+		},{
+			"pagePath":"pages/dating/dating",
+			"iconPath":"static/dating-unselect.png",
+			"selectedIconPath":"static/dating-select.png",
+			"text":"约饭ing~"
+		},{
+			"pagePath":"pages/user/user",
+			"iconPath":"static/user-unselect.png",
+			"selectedIconPath":"static/user-select.png",
+			"text":"我的"
+		}
+		]
+	}
+}

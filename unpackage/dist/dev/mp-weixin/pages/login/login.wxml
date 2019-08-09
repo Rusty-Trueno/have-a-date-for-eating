@@ -1,0 +1,1 @@
+<view class="content"><image class="login-pic" src="../../static/food.png"></image><input class="telephone" type="text" placeholder="手机号"/></view>
